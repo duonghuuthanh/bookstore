@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+/* CSS HEADER */
+header {
+    display: flex;
+    align-items: center;
+}
+
+.col10 {
+    width: 10%;
+}
+
+.col20 {
+    width: 20%;
+}
+
+.col30 {
+    width: 30%;
+    padding: 10px;
+}
+
+div.ctrl {
+    text-align: right;
+}
+
+div.ads {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+div.ads > div {
+    height: 100px;
+    width: 33%;
+    border: 1px dotted darkblue;
+}
+
+/* CSS NAV */
+nav {
+    background-color: aqua;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul.horizontal {
+    display: flex;
+}
+
+ul.menu > li {
+    min-width: 200px;
+    text-align: center;
+    border-right: 1px solid darkblue;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+/* CSS BODY */
+section.content {
+    display: flex;
+}
+
+div.left {
+    width: 20%;
+}
+
+div.right {
+    width: 80%;
+}
+
+ul.vertical > li {
+    text-align: left;
+}
+
+ul.vertical > li > a {
+    background: linear-gradient(blue, lightblue);
+    color: white;
+}
+
+div.books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.book {
+    width: 20%;
+    text-align: center;
+    padding: 1%;
+}
+
+figure {
+    margin: 0;
+}
+
+figure > img {
+    width: 100%;
+}
